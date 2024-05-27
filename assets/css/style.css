@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+body {
+  font-family: sans-serif;
+  margin: 0%;
+}
+
+.secao {
+  min-height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.secao.inicio {
+  background-color: #82B871;
+  background-repeat: no-repeat no-repeat;
+  background-size: 900px 700px;
+  background-position: right;
+  text-align: left;
+}
+.secao.sobre {
+  background-color: #929892;
+  background-repeat: no-repeat no-repeat;
+  text-align: left;
+}
+.secao.atividades {
+  background-color: #82B871;
+}
+.secao.atividades a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-position: right;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.container a:hover {
+  color: #82B871;
+}
+
+.esquerda {
+  float: left;
+}
+
+.direita {
+  float: right;
+}
+
+.centro {
+  float: center;
+}
+
+body {
+  margin: 20px;
+}
+
+.main-login {
+  width: 100vw;
+  height: 100vw;
+}
+
+.center {
+  text-align: center;
+}
+
+.main-login {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-login > h1 {
+  color: #77ffc0;
+}
+
+.right-login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login {
+  width: 60%;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: #2f2841;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.337254902);
+}
+
+.card-login > h1 {
+  color: #00ff88;
+  font-weight: 800;
+  margin: 0;
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #541869;
+  color: rgb(230, 182, 230);
+  font-size: 12pt;
+}
+
+.direitaimage {
+  animation-direction: right;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu li a {
+  text-decoration: none;
+  color: #929892;
+}
+.menu li a:hover {
+  color: #82B871;
+}
+
+nav {
+  background-color: #152614;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #46823E;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #46823E;
+  color: #152614;
+}
+
+.content {
+  padding: 20px;
+}
+
+.blocos_artistas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.blocos_artistas .artista {
+  flex: 1;
+  border: 1px rgb(127, 179, 97);
+  min-height: 500px;
+}
+.blocos_artistas .a1 {
+  background-size: cover;
+  background-position: center;
+}
+.blocos_artistas .a2 {
+  background-image: url("https://brazilsoutheast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fsenacsc754-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!JbE_Aw5d6kixzpvlbG-TZ6E2eM4vdDxIs_9pUg1PLIxi57Urb2n3QKVsre4ZrWP9%2Fitems%2F01E5APFT5ZLPZKDJOTDRHIU3XVZYCGFFR6%3Fversion%3DPublished&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvc2VuYWNzYzc1NC1teS5zaGFyZXBvaW50LmNvbUAwOTE3ZmUxMC01NmRiLTQ0YmYtYjFjNS0zMTA2MWFiMjFjZjkiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMzRmMmE2ZTU5QGxpdmUuY29tIiwiZW5kcG9pbnR1cmwiOiIxUjdsS0JMUkg4T2hzQ1dpeHpXcTZLWFo5YWJFYnF6dTlKUlFrSU90YlhNPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTIwIiwiZXhwIjoiMTcxMzIxNDgwMCIsImlwYWRkciI6IjE3Ny4yMDAuMjA0LjE5MCIsImlzbG9vcGJhY2siOiJUcnVlIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwiaXN1c2VyIjoidHJ1ZSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxzdGhlbGxhLnNpbHZhQGFsdW5vcy5zYy5zZW5hYy5iciIsIm5iZiI6IjE3MTMxOTMyMDAiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsInNpZCI6IjliYjhhNzU4LWI2Y2EtNGZiNy05MjM0LTAwZDQ5Yjc1YmNkMiIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJzaXRlaWQiOiJNRE16Wm1JeE1qVXROV1F3WlMwME9HVmhMV0l4WTJVdE9XSmxOVFpqTm1ZNU16WTMiLCJzbmlkIjoiNiIsInN0cCI6InQiLCJ0dCI6IjAiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.-9yVOrmNk3ZoIjYt64EWEetLzl8zaQCQnIlMFh1ZUiA&cTag=%22c%3A%7BA1F25BB9-D3A5-4E1C-8A6E-F5CE0462963E%7D%2C1%22&encodeFailures=1&width=366&height=214&srcWidth=366&srcHeight=214");
+  background-size: cover;
+  background-position: center;
+}
+.blocos_artistas .a3 {
+  background-image: url("https://brazilsoutheast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fsenacsc754-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!JbE_Aw5d6kixzpvlbG-TZ6E2eM4vdDxIs_9pUg1PLIxi57Urb2n3QKVsre4ZrWP9%2Fitems%2F01E5APFT24YUVFAA3WPFAKHYP2FURIXFCY%3Fversion%3DPublished&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvc2VuYWNzYzc1NC1teS5zaGFyZXBvaW50LmNvbUAwOTE3ZmUxMC01NmRiLTQ0YmYtYjFjNS0zMTA2MWFiMjFjZjkiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMzRmMmE2ZTU5QGxpdmUuY29tIiwiZW5kcG9pbnR1cmwiOiIxUjdsS0JMUkg4T2hzQ1dpeHpXcTZLWFo5YWJFYnF6dTlKUlFrSU90YlhNPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTIwIiwiZXhwIjoiMTcxMzIxNDgwMCIsImlwYWRkciI6IjE3Ny4yMDAuMjA0LjE5MCIsImlzbG9vcGJhY2siOiJUcnVlIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwiaXN1c2VyIjoidHJ1ZSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxzdGhlbGxhLnNpbHZhQGFsdW5vcy5zYy5zZW5hYy5iciIsIm5iZiI6IjE3MTMxOTMyMDAiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsInNpZCI6IjliYjhhNzU4LWI2Y2EtNGZiNy05MjM0LTAwZDQ5Yjc1YmNkMiIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJzaXRlaWQiOiJNRE16Wm1JeE1qVXROV1F3WlMwME9HVmhMV0l4WTJVdE9XSmxOVFpqTm1ZNU16WTMiLCJzbmlkIjoiNiIsInN0cCI6InQiLCJ0dCI6IjAiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.-9yVOrmNk3ZoIjYt64EWEetLzl8zaQCQnIlMFh1ZUiA&cTag=%22c%3A%7B502AC55C-7603-4079-A3E1-FA2D228B9458%7D%2C1%22&encodeFailures=1&width=309&height=311&srcWidth=309&srcHeight=311");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #000;
+}
+
+.fonte1 {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+.fonte2 {
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+}
+
+body {
+  background-image: linear-gradient(45deg, #82B871, #0b200b);
+}
+
+div {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 110px;
+  border-radius: 15px;
+  color: #5D9664;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+button {
+  background-color: rgb(54, 150, 31);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #152614;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

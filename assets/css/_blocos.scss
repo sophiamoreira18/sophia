@@ -1,0 +1,31 @@
+.blocos_artistas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .artista {
+        flex: 1;
+        border: 1px rgb(127, 179, 97);
+        min-height: 500px;
+    }
+
+    .a1 {
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .a2 {
+
+        background-image: url("https://brazilsoutheast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fsenacsc754-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!JbE_Aw5d6kixzpvlbG-TZ6E2eM4vdDxIs_9pUg1PLIxi57Urb2n3QKVsre4ZrWP9%2Fitems%2F01E5APFT5ZLPZKDJOTDRHIU3XVZYCGFFR6%3Fversion%3DPublished&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvc2VuYWNzYzc1NC1teS5zaGFyZXBvaW50LmNvbUAwOTE3ZmUxMC01NmRiLTQ0YmYtYjFjNS0zMTA2MWFiMjFjZjkiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMzRmMmE2ZTU5QGxpdmUuY29tIiwiZW5kcG9pbnR1cmwiOiIxUjdsS0JMUkg4T2hzQ1dpeHpXcTZLWFo5YWJFYnF6dTlKUlFrSU90YlhNPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTIwIiwiZXhwIjoiMTcxMzIxNDgwMCIsImlwYWRkciI6IjE3Ny4yMDAuMjA0LjE5MCIsImlzbG9vcGJhY2siOiJUcnVlIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwiaXN1c2VyIjoidHJ1ZSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxzdGhlbGxhLnNpbHZhQGFsdW5vcy5zYy5zZW5hYy5iciIsIm5iZiI6IjE3MTMxOTMyMDAiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsInNpZCI6IjliYjhhNzU4LWI2Y2EtNGZiNy05MjM0LTAwZDQ5Yjc1YmNkMiIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJzaXRlaWQiOiJNRE16Wm1JeE1qVXROV1F3WlMwME9HVmhMV0l4WTJVdE9XSmxOVFpqTm1ZNU16WTMiLCJzbmlkIjoiNiIsInN0cCI6InQiLCJ0dCI6IjAiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.-9yVOrmNk3ZoIjYt64EWEetLzl8zaQCQnIlMFh1ZUiA&cTag=%22c%3A%7BA1F25BB9-D3A5-4E1C-8A6E-F5CE0462963E%7D%2C1%22&encodeFailures=1&width=366&height=214&srcWidth=366&srcHeight=214");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .a3 {
+        background-image: url("https://brazilsoutheast1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fsenacsc754-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!JbE_Aw5d6kixzpvlbG-TZ6E2eM4vdDxIs_9pUg1PLIxi57Urb2n3QKVsre4ZrWP9%2Fitems%2F01E5APFT24YUVFAA3WPFAKHYP2FURIXFCY%3Fversion%3DPublished&access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvc2VuYWNzYzc1NC1teS5zaGFyZXBvaW50LmNvbUAwOTE3ZmUxMC01NmRiLTQ0YmYtYjFjNS0zMTA2MWFiMjFjZjkiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzMjAwMzRmMmE2ZTU5QGxpdmUuY29tIiwiZW5kcG9pbnR1cmwiOiIxUjdsS0JMUkg4T2hzQ1dpeHpXcTZLWFo5YWJFYnF6dTlKUlFrSU90YlhNPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTIwIiwiZXhwIjoiMTcxMzIxNDgwMCIsImlwYWRkciI6IjE3Ny4yMDAuMjA0LjE5MCIsImlzbG9vcGJhY2siOiJUcnVlIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwiaXN1c2VyIjoidHJ1ZSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxzdGhlbGxhLnNpbHZhQGFsdW5vcy5zYy5zZW5hYy5iciIsIm5iZiI6IjE3MTMxOTMyMDAiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsInNpZCI6IjliYjhhNzU4LWI2Y2EtNGZiNy05MjM0LTAwZDQ5Yjc1YmNkMiIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJzaXRlaWQiOiJNRE16Wm1JeE1qVXROV1F3WlMwME9HVmhMV0l4WTJVdE9XSmxOVFpqTm1ZNU16WTMiLCJzbmlkIjoiNiIsInN0cCI6InQiLCJ0dCI6IjAiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.-9yVOrmNk3ZoIjYt64EWEetLzl8zaQCQnIlMFh1ZUiA&cTag=%22c%3A%7B502AC55C-7603-4079-A3E1-FA2D228B9458%7D%2C1%22&encodeFailures=1&width=309&height=311&srcWidth=309&srcHeight=311");
+        background-size: cover;
+        background-position: center;
+    }
+}

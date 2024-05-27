@@ -1,0 +1,50 @@
+.fonte1 {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+
+}
+
+.fonte2 {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+body {
+
+    background-image: linear-gradient(45deg, #82B871, #0b200b);
+}
+
+div {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 110px;
+    border-radius: 15px;
+    color: #5D9664;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    background-color: rgb(54, 150, 31);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+
+button:hover {
+    background-color: #152614;
+    ;
+    cursor: pointer;
+}
